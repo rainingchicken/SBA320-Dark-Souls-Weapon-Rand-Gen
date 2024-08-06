@@ -19,10 +19,10 @@ const Display = ({ data }: IData) => {
     const weaponInt = data[randomNum].requirements.intelligence;
     const weaponFaith = data[randomNum].requirements.faith;
 
-    const modalRef = useRef<HTMLDivElement>(null);
+    const modalRef = useRef();
 
     const handleOpenModal = () => {
-      modalRef.current.openModal();
+      modalRef.current?.openModal();
     };
 
     return (

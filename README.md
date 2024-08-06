@@ -1,7 +1,5 @@
 # SBA 320H - React Web Application Project
 
-Need help - typescripts - deploying page
-
 ## Dark Souls Remastered Random Weapon Generator
 
 For those wanting a challenge playing Dark Souls Remastered, press the button to get a random weapon. As an extra challenge, the player can adhear to the stats caps provided.
