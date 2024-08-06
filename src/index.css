@@ -1,0 +1,103 @@
+/* https://64.media.tumblr.com/eeeb8768d7317f40bcd119655fb2475a/877ebd7b884cd8d7-f2/s1280x1920/9087883ea2732c28375ffc07552ca314f71d7cfc.png */
+/* https://www.color-hex.com/color-palette/106718 */
+/* https://fonts.google.com/specimen/Cinzel?preview.text=Dark%20Souls%20Remastered */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Patrick+Hand+SC&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+  --dark: #1b1a17;
+  --darkBrown: #38322b;
+  --tan: #695442;
+  --sand: #a78a6d;
+  --beige: #f4efde;
+
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+
+  color-scheme: dark;
+  color: var(--beige);
+  background-color: var(--dark);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --blond: #faf8bd;
+  --copper: #b27943;
+  --rocketMetallic: #8e8382;
+  --blackCoral: #40536b;
+  --eerieBlack: #171715;
+
+
+}
+
+a {
+  font-weight: 500;
+  color: var(--beige);
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--sand);
+}
+
+body {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+  text-align: center;
+
+}
+
+#root {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#weaponName {
+  font-size: 2.4em;
+  line-height: 1.1;
+  background-color: var(--darkBrown);
+  width: fit-content;
+  text-align: center;
+  margin: 1em auto;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+#RandomGenButton,
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--blackCoral);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+#RandomGenButton:hover,
+button:hover {
+  border-color: var(--beige)
+}
+
+#RandomGenButton:focus,
+button:focus,
+#RandomGenButton:focus-visible,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+footer {
+  margin: 2em auto;
+}
