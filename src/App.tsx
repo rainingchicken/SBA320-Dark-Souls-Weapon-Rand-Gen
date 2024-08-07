@@ -6,7 +6,7 @@ import Form from "./components/Form";
 import Footer from "./components/Footer";
 
 function App() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
 
   const getData = async () => {
     try {

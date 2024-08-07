@@ -1,7 +1,7 @@
 import { forwardRef, useImperativeHandle, useState } from "react";
 import { IRequirements } from "../Interface";
 
-const ChallengeModal = (props: IRequirements, ref) => {
+const ChallengeModal = (props: IRequirements, ref: any) => {
   const [modalState, setModalState] = useState(false);
   useImperativeHandle(ref, () => ({
     openModal: () => setModalState(true),

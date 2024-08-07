@@ -19,7 +19,7 @@ const Display = ({ data }: IData) => {
     const weaponInt = data[randomNum].requirements.intelligence;
     const weaponFaith = data[randomNum].requirements.faith;
 
-    const modalRef = useRef();
+    const modalRef = useRef<any>();
 
     const handleOpenModal = () => {
       modalRef.current?.openModal();
@@ -53,10 +53,12 @@ const Display = ({ data }: IData) => {
     );
   };
   const loading = () => {
-    <h2>Loading...</h2>;
+    <>
+      <h2>Loading...</h2>
+    </>;
   };
 
-  return data ? loaded() : loading();
+  return <>{data ? loaded() : loading()}</>;
 };
 
 export default Display;
