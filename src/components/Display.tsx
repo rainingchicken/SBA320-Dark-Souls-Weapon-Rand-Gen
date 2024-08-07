@@ -2,7 +2,7 @@ import { useRef } from "react";
 import ChallengeModal from "./ChallengeModal";
 import { IWeaponData } from "../Interface";
 interface IData {
-  data: Array<IWeaponData>;
+  data: Array<IWeaponData> | any;
 }
 
 const Display = ({ data }: IData) => {
@@ -22,7 +22,7 @@ const Display = ({ data }: IData) => {
     const modalRef = useRef<any>();
 
     const handleOpenModal = () => {
-      modalRef.current?.openModal();
+      modalRef.current.openModal();
     };
 
     return (

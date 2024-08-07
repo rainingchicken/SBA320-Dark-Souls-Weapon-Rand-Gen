@@ -3,6 +3,10 @@
 /* https://fonts.google.com/specimen/Cinzel?preview.text=Dark%20Souls%20Remastered */
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Indie+Flower&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Patrick+Hand+SC&family=Quicksand:wght@300..700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --dark: #1b1a17;
   --darkBrown: #38322b;
